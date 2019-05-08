@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#008080"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="58dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miles of Smiles"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="80dp"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="10dp"
+            android:padding="12dp"
+            android:text="Login with Mobile Number"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="OR"
+            android:gravity="center"
+            android:textSize="16dip"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_fblogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="continue with Facebook"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
